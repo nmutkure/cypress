@@ -162,3 +162,61 @@ c) cy.snap()
 d) cy.capture()
 
 Answer: ✅ a) cy.screenshot()`
+
+
+//---------------------------Lambad Certification Notes
+
+Key Topics to Prepare:
+Running Cypress Automation Tests
+
+Understand cy.get(), cy.visit(), cy.click(), cy.type(), etc.
+Handling assertions (should(), expect(), assert()).
+Using beforeEach() and afterEach().
+Running Cypress tests in headless mode (cypress run --headless).
+Cross-Browser Testing with Cypress on Cloud Grid (LambdaTest)
+
+LambdaTest integration with Cypress using the LambdaTest Tunnel.
+Running tests on Chrome, Firefox, Edge, Safari using the LambdaTest platform.
+Executing Cypress tests in parallel on LambdaTest Cloud Grid.
+Using lambdatest-config.json to set up cloud test runs.
+Cypress Features (Screenshots, Videos, Headless Testing, Env Variables)
+
+Screenshots & Videos:
+cy.screenshot() (for capturing failures or steps).
+Automatic video recording (video: true in cypress.config.js).
+Environment Variables:
+Setting up CYPRESS_ENV variables using cypress.config.js.
+Using Cypress.env('VAR_NAME') for different environments.
+Headless Testing:
+Running tests without UI using cypress run --headless.
+LambdaTest Cypress Certification - Likely MCQs
+How do you integrate Cypress with LambdaTest?
+a) Use cy.visit('lambdatest.com')
+b) Configure lambdatest-config.json and run tests via CLI
+c) Use cy.runOnCloud()
+d) Install Cypress Lambda Plugin
+
+Answer: ✅ b) Configure lambdatest-config.json and run tests via CLI
+
+Which command runs Cypress tests in headless mode?
+a) cypress run --headless
+b) cypress headless
+c) cypress run --silent
+d) cypress execute
+
+Answer: ✅ a) cypress run --headless
+
+Which file is used to configure parallel testing in LambdaTest for Cypress?
+a) cypress.json
+b) lambdatest-config.json
+c) parallel-config.js
+d) lambda-parallel.json
+
+Answer: ✅ b) lambdatest-config.json
+
+How to Practice?
+Sign up for LambdaTest and run Cypress tests in the cloud.
+Use LambdaTest's parallel testing feature to speed up test execution.
+Run tests across different browsers and versions on the LambdaTest grid.
+Enable Cypress screenshots and video recording in cypress.config.js.
+
